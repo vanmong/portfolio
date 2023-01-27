@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "maple";
+  src: url(./Maplestory\ Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "maple";
+  src: url(./Maplestory\ Light.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "keepsmile";
+  src: url(./Keepsmile.ttf);
+}
+@font-face {
+  font-family: "pretendard";
+  font-weight: 45 900;
+  font-style: normal;
+  src: url(./PretendardVariable.woff2);
+}
