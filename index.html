@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./common/minireset.min.css">
   <!-- css -->
   <link rel="stylesheet" href="./style/index.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="./common/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -166,12 +168,59 @@
     <!-- 프로젝트 -->
     <section class="project" id="project">
       <h2>project</h2>
-      <!-- 
-        Infinite loop 스와이퍼 사용예정
-        https://swiperjs.com/demos/200-infinite-loop/core
-        https://codesandbox.io/s/p8eg3k?file=/index.html
-       -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="./html/project1.html" class="sw_wrapper">
+              <p>studio RHE</p>
+              <p>팀프로젝트</p>
+              <p>2022.12.16~2022.12.27</p>
+              <img src="./images/Screenshot_2023-01-20_07-00-29.png" alt="studioRHe">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./html/project2.html" class="sw_wrapper">
+              <p>CJENM</p>
+              <p>팀프로젝트</p>
+              <p>2022.10.28~2022.11.14</p>
+              <img src="./images/main-kv-littlewomen-ko.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./html/project3.html" class="sw_wrapper">
+              <p>제목</p>
+              <p>개인프로젝트</p>
+              <p>2023.02.00~2023.02.00</p>
+              <img src="./images/컨벤션.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./html/project4.html" class="sw_wrapper">
+              <p>제목</p>
+              <p>프로젝트종류</p>
+              <p>2023.02.??~2032.02.??</p>
+              <img src="images/컨밴션수정.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
     </section>
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 30,
+         loop: true,
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev"
+         }
+       });
+     </script>
     <!-- 스킬 -->
     <section class="skills" id="skills">
       <p>skills</p>
@@ -196,7 +245,7 @@
         </ul>
       </div>
       <div class="skillbox4 skillboxes">
-        <p>GIT&GIThub</p>
+        <p>GIT&GITHUB</p>
         <ul>
           <li>Git Bash, VScode 사용</li>
           <li>Git Hub 를 이용한 작업물 저장</li>
