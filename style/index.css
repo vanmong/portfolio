@@ -5,9 +5,11 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #ffd234;
 }
+
 /* 1번라인 */
 .line_container .line1 {
   display: flex;
@@ -16,18 +18,21 @@ body {
   left: 0;
   z-index: 9999;
 }
+
 .line_container .line1 .box1 {
   min-width: 100px;
   width: 100px;
   height: 20px;
   background-color: #0D00C6;
 }
+
 .line_container .line1 .box2 {
   min-width: 100px;
   width: 100px;
   height: 20px;
   background-color: #F1B7AC;
 }
+
 /* 2번라인 */
 .line_container .line2 {
   display: flex;
@@ -37,18 +42,21 @@ body {
   left: 0;
   z-index: 9999;
 }
+
 .line_container .line2 .box1 {
   min-width: 20px;
   width: 20px;
   height: 100px;
   background-color: #0D00C6;
 }
+
 .line_container .line2 .box2 {
   min-width: 20px;
   width: 20px;
   height: 100px;
   background-color: #D8A724;
 }
+
 /* 3번라인 */
 .line_container .line3 {
   display: flex;
@@ -57,18 +65,21 @@ body {
   left: 0;
   z-index: 9999;
 }
+
 .line_container .line3 .box1 {
   min-width: 100px;
   width: 100px;
   height: 20px;
   background-color: #F1B7AC;
 }
+
 .line_container .line3 .box2 {
   min-width: 100px;
   width: 100px;
   height: 20px;
   background-color: #6F954A;
 }
+
 /* 4번라인 */
 .line_container .line4 {
   display: flex;
@@ -78,18 +89,21 @@ body {
   top: 0;
   z-index: 9999;
 }
+
 .line_container .line4 .box1 {
   min-width: 20px;
   width: 20px;
   height: 100px;
   background-color: #fff;
 }
+
 .line_container .line4 .box2 {
   min-width: 20px;
   width: 20px;
   height: 100px;
   background-color: #000;
 }
+
 /* 내비 */
 nav {
   background-color: #ffd234;
@@ -99,26 +113,167 @@ nav {
   width: 100%;
   border-bottom: 1px solid #000;
 }
+
 nav ul {
   display: flex;
   justify-content: space-around;
 }
-nav ul li a{
+
+nav ul li a {
   font-family: "keepsmile";
   color: #000;
   text-decoration: none;
 }
+
 /* 전체요소영역 컨테이너 */
-.all_container {
-  margin: 0 5vw;
-}
 /* 헤더 */
 .all_container header {
+  margin: 0 5vw;
   margin-top: 100px;
 }
+
 .all_container header h1 {
   font-family: "keepsmile";
   text-align: center;
   font-size: 13.0208vw;
   margin-bottom: 150px;
+}
+
+/* 프로젝트 */
+.all_container #project h2 {
+  font-size: 60px;
+  font-family: "keepsmile";
+  margin: 0 5vw;
+  margin-bottom: 150px;
+}
+
+/* 스킬 */
+.all_container #skills>p {
+  font-size: 60px;
+  font-family: "keepsmile";
+  text-align: right;
+  margin: 0 5vw;
+  margin-bottom: 150px;
+}
+
+/* 스킬 전체영역 css */
+.all_container #skills .skillboxes {
+  height: 230px;
+  border-top: #000 1px solid;
+  display: flex;
+  align-items: center;
+}
+
+.all_container #skills .skillboxes p {
+  margin-left: 10vw;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "maplestory";
+}
+
+.all_container #skills .skillboxes ul {
+  width: 100%;
+  margin: 0 10vw;
+  font-family: "pretendard";
+  text-align: right;
+}
+
+.all_container #skills .skillboxes ul li {
+  margin: 5px 0;
+}
+
+/* 스킬 개별영역  */
+.all_container #skills .skillbox5 {
+  border-bottom: 1px solid #000;
+  margin-bottom: 150px;
+}
+
+/* 어바웃 */
+/* 어바웃 카테고리 전체 */
+.all_container #about .kategorie {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 5vw;
+  font-family: "maplestory";
+  font-size: 50px;
+  margin-bottom: 150px;
+}
+
+.all_container #about .kategorie li {
+  background-color: #fff;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+
+/* 어바웃 카테고리 개별 */
+.all_container #about .kategorie li:nth-child(1) {
+  border: #ff0000 3px solid;
+}
+
+.all_container #about .kategorie li:nth-child(2) {
+  border: #00FF38 3px solid;
+}
+
+.all_container #about .kategorie li:nth-child(3) {
+  border: #7EE0FF 3px solid;
+}
+
+.all_container #about .kategorie li:nth-child(4) {
+  border: #F4AFFF 3px solid;
+}
+
+.all_container #about .kategorie li:nth-child(5) {
+  border: #00008b 3px solid;
+}
+
+/* introduce */
+.all_container #about h2 {
+  font-family: "keepsmile";
+  text-align: center;
+  font-size: 15.6250vw;
+  margin-bottom: 90px;
+}
+/* exp */
+.all_container #about .exp {
+  margin: 0 5vw;
+  font-size: 40px;
+  font-family: "maplestory";
+}
+.all_container #about .thx {
+  margin: 0 5vw;
+  font-size: 40px;
+  font-family: "maplestory";
+  text-align: right;
+  margin-bottom: 35px;
+}
+.all_container #about .comment {
+  margin: 0 5vw;
+  font-size: 40px;
+  font-family: "maplestory";
+  text-align: right;
+  margin-bottom: 150px;
+}
+/* 푸터 */
+.all_container footer {
+  display: flex;
+  align-items: flex-end;
+  font-family: "keepsmile";
+  font-size: 60px;
+  width: 100%;
+  margin-bottom: 5vh;
+}
+.all_container footer .footer_box1 {
+  margin: 0 5vw;
+  width: 50%;
+}
+.all_container footer .footer_box1 p span{
+  font-family: "maplestory";
+}
+.all_container footer .footer_box2 {
+  width: 50%;
+  text-align: right;
+  margin: 0 5vw;
+}
+.all_container footer .footer_box2 a {
+  text-decoration: ;
 }
