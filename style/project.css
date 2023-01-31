@@ -37,6 +37,9 @@ section .list_box .txt_wrapper {
   margin: 20px;
   margin-right: 3vw;
 }
+section .list_box .border {
+  border-top: 1px solid #000;
+}
 section .list_box .txt_wrapper p:nth-child(1){
   width: 50%;
 }
@@ -44,16 +47,28 @@ section .list_box .txt_wrapper p:nth-child(2){
   text-align: right;
   width: 50%;
 }
+section .list_box .txt_wrapper p:nth-child(2) i {
+  cursor: pointer;
+  transition: .3s;
+}
 section .list_box .txt_wrapper p:nth-child(2) i.active {
-  rotate: 45deg;
+  rotate: 405deg;
+}
+section .list_box ul {
+  height: 0px;
+  overflow: hidden;
+  transition: .3s;
+}
+/* 효과 */
+section .list_box ul.active {
+  height: 500px;
 }
 section .list_box ul li {
   height: 50px;
   line-height: 50px;
+  transition: .3s;
 }
-section .list_box ul li:first-child{
-  border-top: 1px solid #000;
-}
+
 section .list_box ul li:last-child{
   border-bottom: #000 1px solid;
 }
