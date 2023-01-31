@@ -1,5 +1,6 @@
 /* 폰트 */
 @import url(../common/fonts/fonts.css);
+
 /* 전체요소영역 컨테이너 */
 /* 헤더 */
 .all_container header {
@@ -18,12 +19,14 @@
 .all_container #project {
   padding-bottom: 150px;
 }
+
 .all_container #project h2 {
   font-size: 60px;
   font-family: "keepsmile";
   margin: 0 5vw;
   margin-bottom: 150px;
 }
+
 /* 스와이퍼 */
 .swiper {
   width: 95%;
@@ -55,6 +58,7 @@
   height: 100%;
   object-fit: cover;
 }
+
 .sw_wrapper {
   color: #000;
   text-decoration: none;
@@ -62,22 +66,25 @@
   font-size: 35px;
   font-weight: bold;
   text-align: left;
-  border: #000 1px solid ;
+  border: #000 1px solid;
   width: 100%;
   height: 99%;
   transition: .3s;
   overflow: hidden;
 }
+
 .sw_wrapper:hover {
   background-color: #fff;
 }
+
 .sw_wrapper p {
-  margin: 20px ;
+  margin: 20px;
 }
+
 .sw_wrapper img {
   object-fit: cover;
-  
 }
+
 /* 스킬 */
 .all_container #skills>p {
   font-size: 60px;
@@ -104,7 +111,7 @@
 
 .all_container #skills .skillboxes ul {
   width: 100%;
-  margin: 0 10vw;
+  margin-right: 10vw;
   font-family: "pretendard";
   text-align: right;
 }
@@ -164,12 +171,14 @@
   font-size: 15.6250vw;
   margin-bottom: 90px;
 }
+
 /* exp */
 .all_container #about .exp {
   margin: 0 5vw;
   font-size: 40px;
   font-family: "maplestory";
 }
+
 .all_container #about .thx {
   margin: 0 5vw;
   font-size: 40px;
@@ -177,6 +186,7 @@
   text-align: right;
   margin-bottom: 35px;
 }
+
 .all_container #about .comment {
   margin: 0 5vw;
   font-size: 40px;
@@ -184,6 +194,7 @@
   text-align: right;
   margin-bottom: 150px;
 }
+
 /* 푸터 */
 .all_container footer {
   display: flex;
@@ -193,23 +204,28 @@
   width: 100%;
   margin-bottom: 5vh;
 }
+
 .all_container footer .footer_box1 {
   margin: 0 5vw;
   width: 50%;
 }
-.all_container footer .footer_box1 p span{
+
+.all_container footer .footer_box1 p span {
   font-family: "maplestory";
 }
+
 .all_container footer .footer_box2 {
   width: 50%;
   text-align: right;
   margin: 0 5vw;
 }
+
 .all_container footer .footer_box2 a {
   transition: .3s;
   color: #000;
   text-decoration: none;
 }
+
 .all_container footer .footer_box2 a:hover {
   color: #ffd234;
   -webkit-text-stroke: 1px #000;
