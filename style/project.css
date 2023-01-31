@@ -1,0 +1,98 @@
+/* 헤더 */
+header {
+  margin-top: 100px;
+}
+header h1 {
+  font-size: 250px;
+  text-align: center;
+  font-family: "keepsmile";
+  margin-bottom: 30px;
+  position: relative;
+}
+/* 영역 */
+section {
+  display: flex;
+  border-top: 1px solid #000;
+  justify-content: center;
+}
+/* 첫번째박스 */
+section .txt_box {
+  min-width: 500px;
+  width: 26.0417vw;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  margin-top: 1.5vw;
+  margin-left: 2.5vw;
+  font-family: 'maplestory';
+}
+/* 두번째박스 */
+section .list_box {
+  min-width: 500px;
+  width: 26.0417vw;
+  border-bottom: 1px solid #000;
+  font-family: 'maplestory';
+}
+section .list_box .txt_wrapper {
+  display: flex;
+  margin: 20px;
+  margin-right: 3vw;
+}
+section .list_box .txt_wrapper p:nth-child(1){
+  width: 50%;
+}
+section .list_box .txt_wrapper p:nth-child(2){
+  text-align: right;
+  width: 50%;
+}
+section .list_box .txt_wrapper p:nth-child(2) i.active {
+  rotate: 45deg;
+}
+section .list_box ul li {
+  height: 50px;
+  line-height: 50px;
+}
+section .list_box ul li:first-child{
+  border-top: 1px solid #000;
+}
+section .list_box ul li:last-child{
+  border-bottom: #000 1px solid;
+}
+section .list_box ul li a {
+  margin: 20px;
+  vertical-align: middle;
+  color: #000;
+  text-decoration: none;
+}
+
+/* 이미지박스 */
+section .img_box {
+  width: 45.8333vw;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  height: 3000px;
+}
+section .img_box figure {
+  /* 부모 img_box의 height 값이 부여될때 작동 */
+  position: sticky;
+  height: 800px;
+  top: 91px;
+}
+section .img_box figure img {
+  height: 100%;
+  object-fit: cover;
+}
+section .img_box figure figcaption {
+  text-align: center;
+}
+section .img_box figure figcaption a {
+  text-align: center;
+  font-size: 50px;
+  font-family: "keepsmile";
+  text-decoration: none;
+  color: #000;
+  -webkit-text-stroke: 1px #000;
+  transition: .3s;
+}
+section .img_box figure figcaption a:hover {
+  color: #ffd234;
+}
