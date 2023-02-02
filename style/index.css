@@ -142,7 +142,6 @@ nav ul li:nth-child(1) a.stroke, nav ul li:nth-child(2) a.stroke ,nav ul li:nth-
   font-family: "maplestory";
   font-size: 50px;
   margin-bottom: 150px;
-  transition: .5s;
 }
 
 .all_container #about .kategorie li {
