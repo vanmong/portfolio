@@ -1,5 +1,9 @@
 /* 폰트 */
 @import url(../common/fonts/fonts.css);
+/* 내비 */
+nav ul li:nth-child(1) a.stroke, nav ul li:nth-child(2) a.stroke ,nav ul li:nth-child(3) a.stroke{
+  color: #ffd234;
+}
 
 /* 전체요소영역 컨테이너 */
 /* 헤더 */
@@ -12,18 +16,14 @@
   font-family: "keepsmile";
   text-align: center;
   font-size: 13.0208vw;
-  margin-bottom: 150px;
 }
 
 /* 프로젝트 */
-.all_container #project {
-  padding-bottom: 150px;
-}
-
 .all_container #project h2 {
   font-size: 60px;
   font-family: "keepsmile";
   margin: 0 5vw;
+  padding-top: 150px;
   margin-bottom: 150px;
 }
 
@@ -76,16 +76,20 @@
 .sw_wrapper:hover {
   background-color: #fff;
 }
-
 .sw_wrapper p {
   margin: 20px;
+  z-index: 99;
 }
 
 .sw_wrapper img {
   object-fit: cover;
+  overflow: hidden;
 }
 
 /* 스킬 */
+.all_container #skills {
+  padding-top: 150px;
+}
 .all_container #skills>p {
   font-size: 60px;
   font-family: "keepsmile";
@@ -117,16 +121,19 @@
 }
 
 .all_container #skills .skillboxes ul li {
+  font-size: 1.2em;
   margin: 5px 0;
 }
 
 /* 스킬 개별영역  */
 .all_container #skills .skillbox5 {
   border-bottom: 1px solid #000;
-  margin-bottom: 150px;
 }
 
 /* 어바웃 */
+.all_container #about {
+  padding-top: 150px;
+}
 /* 어바웃 카테고리 전체 */
 .all_container #about .kategorie {
   display: flex;
@@ -135,6 +142,7 @@
   font-family: "maplestory";
   font-size: 50px;
   margin-bottom: 150px;
+  transition: .5s;
 }
 
 .all_container #about .kategorie li {
@@ -193,6 +201,7 @@
   font-family: "maplestory";
   text-align: right;
   margin-bottom: 150px;
+  animation:  cursor 0.2s ease infinite;
 }
 
 /* 푸터 */

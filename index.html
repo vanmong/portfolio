@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="./common/style/common.css">
   <!-- swiper -->
   <link rel="stylesheet" href="./common/swiper-bundle.min.css">
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -158,9 +160,9 @@
   <!-- 내비 -->
   <nav class="active">
     <ul>
-      <li><a href="#project">project</a></li>
-      <li><a href="#skills">skills</a></li>
-      <li><a href="#about">about</a></li>
+      <li><a href="#move1">project</a></li>
+      <li><a href="#move2">skills</a></li>
+      <li><a href="#move3">about</a></li>
     </ul>
   </nav>
   <div class="all_container">
@@ -169,6 +171,7 @@
       <h1>Welcome<br>My Portfolio</h1>
     </header>
     <!-- 프로젝트 -->
+    <div id="move1"></div>
     <section class="project" id="project">
       <h2>project</h2>
       <div class="swiper mySwiper">
@@ -178,7 +181,7 @@
               <p>studio RHE</p>
               <p>팀프로젝트</p>
               <p>2022.12.16~2022.12.27</p>
-              <img src="./images/Screenshot_2023-01-20_07-00-29.png" alt="studioRHe">
+              <img src="./images/share.jpg" alt="studioRHe">
             </a>
           </div>
           <div class="swiper-slide">
@@ -225,6 +228,7 @@
       });
     </script>
     <!-- 스킬 -->
+    <div id="move2"></div>
     <section class="skills" id="skills">
       <p>skills</p>
       <div class="skillbox1 skillboxes">
@@ -233,6 +237,10 @@
           <li>웹사이트 구축 및 디자인</li>
           <li>미디어쿼리 이용 반응형 웹 제작</li>
           <li>flex, grid, position 사용</li>
+          <li>flex, grid, position 사용</li>
+          <li>flex, grid, position 사용</li>
+          <li>flex, grid, position 사용</li>
+          <li>최대 8개 줄까지 가능한거같음ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</li>
         </ul>
       </div>
       <div class="skillbox2 skillboxes">
@@ -257,11 +265,12 @@
       <div class="skillbox5 skillboxes">
         <p>OTHERS</p>
         <ul>
-          <li>photoshop& illustrator을 이용한 편집 및 디자인</li>
+          <li>photoshop & illustrator을 이용한 편집 및 디자인</li>
         </ul>
       </div>
     </section>
     <!-- ABOUT -->
+    <div id="move3"></div>
     <section class="about" id="about">
       <ul class="kategorie">
         <li>#ISTP</li>
@@ -300,6 +309,8 @@
   <p>1</p>
   <!-- 공용 js -->
   <script src="./common/js/common.js"></script>
+  <script src="./js/index.js"></script>
+  
 </body>
 
 </html>

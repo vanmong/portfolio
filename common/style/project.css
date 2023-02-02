@@ -75,6 +75,10 @@ section .list_box ul li {
   line-height: 50px;
   transition: .3s;
 }
+section .list_box ul li a.list {
+  background-color: #000;
+  color: #fff;
+}
 
 section .list_box ul li:last-child{
   border-bottom: #000 1px solid;
