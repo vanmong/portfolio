@@ -1,57 +1,19 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="ko">
 <head>
-    <meta charset="UTF-8" />
-    <title> Test page</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>??</title>
     <style>
-        html,
-        body {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
+        div {
+            font-size: 100px;
+            font-family: '궁서체';
+            display: flex;
+            justify-content: center;
         }
-
-        #main {
-            background-color: black;
-            color: #fff;
-            font-size: 80px;
-            height: 100%;
-            text-align: center;
-            padding: 5%;
-        }
-
-        
     </style>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
-    <script>
-        $(document).ready(function() {
-            var text = document.getElementById("typeStyle");
-
-            var typewriter = new Typewriter(text, {
-                loop: true
-            });
-
-            typewriter.typeString('Welcome ddto Godino world')
-                .pauseFor(2000)
-                .deleteAll()
-                .typeString('타입 라이터 효과')
-                .pauseFor(2000)
-                .deleteChars(2)
-                .typeString('<strong>Effect!</strong>')
-                .pauseFor(2500)
-                .start();
-
-        });
-    </script>
 </head>
-
 <body>
-    <div id="main">
-        <div id="typeStyle"></div>
-    </div>
+    <div>그래서 이제 뭐함?</div>
 </body>
-
 </html>
