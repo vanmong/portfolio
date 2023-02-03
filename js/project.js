@@ -1,3 +1,4 @@
+// 드롭메뉴 
 const ibtn = document.querySelector('.fa-plus');
 const dropmenu = document.querySelector('.dropmenu');
 

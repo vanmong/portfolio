@@ -10,12 +10,14 @@ nav ul li:nth-child(1) a.stroke, nav ul li:nth-child(2) a.stroke ,nav ul li:nth-
 .all_container header {
   margin: 0 5vw;
   margin-top: 100px;
+  
 }
 
 .all_container header h1 {
   font-family: "keepsmile";
   text-align: center;
   font-size: 13.0208vw;
+  height: 31.8750vw;
 }
 
 /* 프로젝트 */
