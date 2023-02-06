@@ -69,7 +69,7 @@ section .list_box ul {
 }
 /* 효과 */
 section .list_box ul.active {
-  height: 500px;
+  height: 750px;
 }
 section .list_box ul li {
   height: 50px;

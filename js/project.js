@@ -1,16 +1,3 @@
-// 드롭메뉴 
-window.onload = function() {
-  const ibtn = document.querySelector('.fa-plus');
-  const dropmenu = document.querySelector('.dropmenu');
-  
-  ibtn.addEventListener('click', () => 
-  ibtn.classList.toggle('active')
-  );
-  ibtn.addEventListener('click', () => 
-  dropmenu.classList.toggle('active')
-  );
-};
-
 /* 
 내가싸지른 코드 잔재
 const scrollY = document.querySelector(scrollY);
