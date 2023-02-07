@@ -10,6 +10,8 @@
   <script src="https://kit.fontawesome.com/1421974912.js" crossorigin="anonymous"></script>
   <!-- minireset -->
   <link rel="stylesheet" href="../common/minireset.min.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="../common/fonts/fonts.css">
   <!-- css -->
   <link rel="stylesheet" href="../style/project.css">
   <!-- 공통css -->
@@ -17,7 +19,10 @@
   <link rel="stylesheet" href="../common/style/project.css">
   <!-- jQuery -->
   <script src="../common/js/jquery-3.6.3.min.js"></script>
-
+  <!-- 공용스크립트 -->
+  <script defer src="../common/js/common.js"></script>
+  <!-- 스크립트 -->
+  <script defer src="../js/project.js"></script>
 </head>
 
 <body>
@@ -175,15 +180,48 @@
     <div class="txt_box">
       <p id="txt1">
         <strong>목표</strong><br>
-
+        나를 소개하는 간단한 포트폴리오용 사이트 제작<br>
+ 
       </p>
-      <p id="txt2"></p>
-      <p id="txt3"></p>
-      <p id="txt4"></p>
+      <p id="txt2">
+        <strong>사용기술</strong><br>
+        Visual Studio Code 를 이용하여 html5, css3를 사용해 웹사이트 구축<br>
+        JavaScript를 간단히 이용한 애니메이션 효과<br>
+        플러그인을 활용한 애니메이션 효과
+      </p>
+      <p id="txt3">
+        <strong>페이지 구성</strong><br>
+        flex, position를 이용한 웹페이지 레이아웃 제작/제어<br>
+        swiper를 이용한 이미지 슬라이더 제작<br>
+      </p>
+      <p id="txt4">
+        <strong>문제 및 해결</strong><br>
+        <ul>
+          <li>ㆍswiper 적용 과정
+            <ol>
+              <li>swiper을 적용해 가는 과정에 있어서 swiper이 제대로 적용이 안되거나, swiper의 버튼이 원하는 위치에 있지 않는등의 문제가있었으니 해결됨</li>
+            </ol>
+          </li>
+          <li>ㆍ허전한 컨텐츠들
+            <ol>
+              <li>aos플러그인, 타이핑플러그인 등을 활용하여 허전하다고 느껴질 수 있는 콘텐츠들에게 애니메이션 효과를 적용하여 기존보다 더 나아짐</li>
+            </ol>
+          </li>
+          <li>ㆍ처음 사용하는 플러그인 적용 과정
+            <ol>
+              <li>처음 사용해보는 플러그인을 사용하는 과정에서 플러그인 본문의 플러그인 사용방법을 그대로 따라해도 적용이 안되는 문제가 있어서 이로인해 꽤 많은시간을 들여서 결국 적용시킴</li>
+            </ol>
+          </li>
+        </ul>
+      </p>
     </div>
     <div class="img_box">
       <figure>
-        <img src="../images/giftest.gif" alt="홈페이지이름">
+        <video 
+        src="../images/cat.mp4"
+        autoplay="true"
+        loop="true"
+        ></video>
         <figcaption><a href="https://beforechristmas.github.io/StudioRhe/" target="_blank">visit page</a></figcaption>
       </figure>
     </div>
@@ -194,10 +232,9 @@
       <div class="border"></div>
       <ul class="dropmenu active">
         <li><a href="javascript:window.scrollTo( 0, 346 );">1. 목표</a></li>
-        <li><a href="javascript:window.scrollTo( 0, 356 );">2. 사용기술</a></li>
-        <li><a href="javascript:window.scrollTo( 0, 356 );">3. 페이지 구성</a></li>
-        <li><a href="javascript:window.scrollTo( 0, 356 );">4. 문제 및 해결</a></li>
-        <li><a href="javascript:window.scrollTo( 0, 356 );">5. 개인 리뷰</a></li>
+        <li><a href="javascript:window.scrollTo( 0, 431 );">2. 사용기술</a></li>
+        <li><a href="javascript:window.scrollTo( 0, 556 );">3. 페이지 구성</a></li>
+        <li><a href="javascript:window.scrollTo( 0, 656 );">4. 문제 및 해결</a></li>
         <li>          
           <div class="directory">
             <img src="../images/direct.png  " alt="디렉토리">
@@ -206,10 +243,6 @@
       </ul>
     </div>
   </section>
-  <!-- 공용스크립트 -->
-  <script src="../common/js/common.js"></script>
-  <!-- 스크립트 -->
-  <script src="../js/project.js"></script>
 </body>
 
 </html>

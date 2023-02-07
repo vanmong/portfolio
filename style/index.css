@@ -1,5 +1,11 @@
-/* 폰트 */
-@import url(../common/fonts/fonts.css);
+/* 스크롤바 없애고 기능만 */
+body{
+  -ms-overflow-style: none;
+  }
+  
+ ::-webkit-scrollbar {
+   display: none;
+ }
 /* 내비 */
 nav ul li:nth-child(1) a.stroke, nav ul li:nth-child(2) a.stroke ,nav ul li:nth-child(3) a.stroke{
   color: #ffd234;
