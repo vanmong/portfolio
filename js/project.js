@@ -1,16 +1,3 @@
-/* 
-내가싸지른 코드 잔재
-const scrollY = document.querySelector(scrollY);
-const article = document.querySelector('.article')
-if (scrollY) {
-  scrollY >= 306 (
-    article.classList.add('list')
-  )
-} else {
-  
-}; */
-
-
 // 페이지전환효과
 jQuery(function($) {
   $("body").css("display", "none");
