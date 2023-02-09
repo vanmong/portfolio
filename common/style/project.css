@@ -26,24 +26,24 @@ section {
 }
 /* 첫번째박스 */
 section .txt_box {
-  min-width: 500px;
-  width: 26.0417vw;
-  border-bottom: 1px solid #000;
+  width: 200vw;
+  height: 1600px;
   border-right: 1px solid #000;
   margin-left:40px;
   font-family: 'maplestory';
   line-height: 1.7em;
 }
-section .txt_box p {
+section .txt_box .txt {
   margin-right: 20px;
   overflow: hidden;
   margin-top: 20px;
 }
-section .txt_box p strong {
+section .txt_box .txt strong {
   font-size: 20px;
 }
 section .txt_box ul li {
   font-weight: bold;
+  margin-right: .5vw;
 }
 section .txt_box ul li ol li {
   font-weight: normal;
@@ -52,9 +52,6 @@ section .txt_box ul li ol li {
 /* 두번째박스 */
 section .list_box {
   position: relative;
-  min-width: 500px;
-  width: 26.0417vw;
-  border-bottom: 1px solid #000;
   font-family: 'maplestory';
 }
 section .list_box .txt_wrapper {
@@ -113,37 +110,12 @@ section .list_box ul li a:hover {
   background-color: #000;
   color: #fff;
 }
-
-/* 이미지박스 */
-section .img_box {
-  width: 45.8333vw;
-  border-bottom: 1px solid #000;
-  border-right: 1px solid #000;
-  height: 2000px;
-}
-section .img_box figure {
-  /* 부모 img_box의 height 값이 부여될때 작동 */
-  position: sticky;
-  height: 800px;
-  top: 91px;
-}
-section .img_box figure video {
+/* 비디오 */
+section .list_box ul li figure video {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
-section .img_box figure figcaption {
+section .list_box ul li figcaption {
   text-align: center;
-}
-section .img_box figure figcaption a {
-  text-align: center;
-  font-size: 50px;
-  font-family: "keepsmile";
-  text-decoration: none;
-  color: #000;
-  -webkit-text-stroke: 1px #000;
-  transition: .3s;
-}
-section .img_box figure figcaption a:hover {
-  color: #ffd234;
+  font-family: 'keepsmile';
+  font-size: 30px;
 }
