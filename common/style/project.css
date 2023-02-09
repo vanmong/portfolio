@@ -1,16 +1,17 @@
 /* 스크롤바 없애고 기능만 */
-body{
+body {
   -ms-overflow-style: none;
-  }
-  
- ::-webkit-scrollbar {
-   display: none;
- }
- 
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* 헤더 */
 header {
   margin-top: 100px;
 }
+
 header h1 {
   font-size: 250px;
   text-align: center;
@@ -18,103 +19,124 @@ header h1 {
   margin-bottom: 30px;
   position: relative;
 }
+
 /* 영역 */
 section {
   display: flex;
   border-top: 1px solid #000;
   justify-content: center;
 }
+
 /* 첫번째박스 */
 section .txt_box {
   width: 200vw;
-  height: 1600px;
+  height: 2000px;
   border-right: 1px solid #000;
-  margin-left:40px;
+  margin-left: 80px;
   font-family: 'maplestory';
-  line-height: 1.7em;
+  line-height: 2.3em;
 }
+
 section .txt_box .txt {
   margin-right: 20px;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 50px;
 }
+
 section .txt_box .txt strong {
   font-size: 20px;
+}
+section .txt_box .txt div {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+section .txt_box .txt span {
+  font-weight: normal;
 }
 section .txt_box ul li {
   font-weight: bold;
   margin-right: .5vw;
 }
+
 section .txt_box ul li ol li {
   font-weight: normal;
   list-style: none;
 }
+
 /* 두번째박스 */
 section .list_box {
   position: relative;
   font-family: 'maplestory';
 }
+
 section .list_box .txt_wrapper {
   display: flex;
   margin: 20px;
   margin-right: 3vw;
 }
+
 section .list_box .border {
   border-top: 1px solid #000;
 }
-section .list_box .txt_wrapper p:nth-child(1){
+
+section .list_box .txt_wrapper p:nth-child(1) {
   width: 50%;
 }
-section .list_box .txt_wrapper p:nth-child(2){
+
+section .list_box .txt_wrapper p:nth-child(2) {
   text-align: right;
   width: 50%;
 }
+
 section .list_box .txt_wrapper p:nth-child(2) i {
   cursor: pointer;
   transition: .3s;
 }
+
 section .list_box .txt_wrapper p:nth-child(2) i.active {
   rotate: 405deg;
 }
+
 section .list_box ul {
-  height: 0px;
-  top:91px;
+  top: 91px;
   position: sticky;
   overflow: hidden;
   transition: .3s;
 }
+
 /* 효과 */
-section .list_box ul.active {
-  height: 750px;
-}
 section .list_box ul li {
-  height: 50px;
-  line-height: 50px;
   transition: .3s;
 }
+
 section .list_box ul li a.list {
   background-color: #000;
   color: #fff;
 }
 
-section .list_box ul li:last-child{
-  border-bottom: #000 1px solid;
-}
+
 section .list_box ul li a {
-  margin: 20px;
-  vertical-align: middle;
+  display: block;
+  padding: 30px 20px;
   color: #000;
   text-decoration: none;
+}
+section .list_box ul li:last-child a {
+  padding:100px 20px;
 }
 section .list_box ul li a:hover {
   background-color: #000;
   color: #fff;
 }
+
 /* 비디오 */
-section .list_box ul li figure video {
-  width: 100%;
+section .list_box ul li video {
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
-section .list_box ul li figcaption {
+section .list_box ul li:last-child a {
   text-align: center;
   font-family: 'keepsmile';
   font-size: 30px;
