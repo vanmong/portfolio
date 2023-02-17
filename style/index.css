@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 스크롤바 없애고 기능만 */
 body{
   -ms-overflow-style: none;
